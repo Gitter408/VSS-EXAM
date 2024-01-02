@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="pp.css">
+    <script src="https://kit.fontawesome.com/f641db7124.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi, We Are <span>CodeTribe</span><br> From Pakistan</h1>
+            </div>
+        </div>
+    </div>
+
+    <!---ABOUT ME-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/men.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Us</h1>
+                    <p>Hello, we are CodeTribe, a creative UI/UX designer dedicated to crafting seamless and engaging
+                        digital experiences. With a keen eye for detail and a passion for user-centered design, I
+                        specialize in transforming ideas into visually appealing and intuitive interfaces. Let's
+                        collaborate to bring your digital vision to life!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiences')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android/IOS Apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiences">
+                        <ul>
+                            <li><span>2021-Current</span><br>Ui/UX Design Training</li>
+                            <li><span>2019-2021</span><br>Team Lead</li>
+                            <li><span>2017-2019</span><br>UI/UX Design Executive.</li>
+                            <li><span>2016-2017</span><br>Internship</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2016</span><br>Designing Web/App interfaces</li>
+                            <li><span>2016</span><br>MBA from LUMS</li>
+                            <li><span>2014</span><br>BBA from LUMS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--SERVICES-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Our Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Elevate your online presence with our expert web design services. We specialize in creating
+                        visually stunning and user-friendly websites tailored to your brand. From intuitive navigation
+                        to responsive layouts, we craft designs that captivate audiences and deliver a seamless user
+                        experience. Let us transform your vision into a compelling and engaging digital presence.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Unlock the power of exceptional user experiences with our UI/UX design services. We are dedicated
+                        to crafting interfaces that seamlessly blend beauty and functionality. From intuitive user
+                        interfaces to engaging user experiences, we prioritize user-centric design that enhances
+                        satisfaction and interaction. Elevate your digital products with our expertise, where every
+                        click tells a story of thoughtful design..</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>Transform your app idea into a visual masterpiece with our app design services. We specialize in
+                        creating sleek and user-friendly interfaces that resonate with your brand. From wireframing to
+                        the final pixel, our team ensures a seamless and intuitive design that enhances user engagement.
+                        Let us bring your app to life with a blend of creativity and functionality.</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--PORTFOLIO-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Our Work</h1>
+            <div class="work-List">
+                <div class="work">
+                    <img src="images/work-1.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Connect, share, and engage with our cutting-edge Social Media App. Unleash the power of
+                            meaningful connections as you seamlessly navigate through personalized feeds, discover
+                            trending content, and express yourself with ease. Our app is designed to foster a vibrant
+                            community, where every interaction brings you closer to the moments and people that matter.
+                            Join the conversation and make your mark in the digital world.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>Immerse yourself in a world of rhythm and melody with our innovative Music App. Discover and
+                            stream your favorite tunes effortlessly, explore curated playlists, and tailor your musical
+                            journey with personalized recommendations. Our app offers a sleek interface designed for
+                            music lovers, providing a seamless and enjoyable experience for every beat, note, and chord.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>Experience the future of retail with our Online Shopping App. Shop seamlessly from the
+                            comfort of your fingertips, explore a diverse range of products, and enjoy secure
+                            transactions. Our app is designed for a user-friendly and delightful shopping experience,
+                            offering convenience, personalized recommendations, and exclusive deals. Elevate your online
+                            shopping journey with us.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+
+    <!--CONTACT-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0123456789</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                    <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzE9GZaNmCOfGG-95f9nQGv8KMKCKty3Q9lEwGqwAhpy2SV8LdB-du_yEmZo7Ebhjig/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+</html>
