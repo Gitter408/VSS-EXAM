@@ -1,13 +1,26 @@
 version: 0.2
+
 phases:
   install:
+    runtime-versions:
+      nodejs: 12  # If you need Node.js for any build-related tasks
     commands:
       - echo "Installing dependencies..."
-      - npm install
+      # You might not have any dependencies to install for a basic HTML/CSS site
+
+  pre_build:
+    commands:
+      - echo "Executing pre-build commands..."
+      # Add any pre-build commands here if needed
+
   build:
     commands:
-      - echo "Building the project..."
-      - npm run build
+      - echo "Building the website..."
+      # If there's a specific build step for your site, like minification or optimization, include it here
+      # For basic HTML/CSS sites, this might just involve copying files or creating a production-ready folder
+
 artifacts:
   files:
     - '**/*'
+  # This configuration tells CodeBuild to include all files in the build artifact
+  # Adjust the '**/*' pattern if you want to include specific folders/files only
